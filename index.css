@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans:600');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:700|Expletus+Sans:600');
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  width: 100%;
+  background: url("smokey-pink.jpg") no-repeat fixed center;
+  background-size: cover;
+  font-family: 'Expletus Sans', cursive;
+}
+
+#container {
+  margin: 0 auto;
+  /* padding: 52px; */
+}
+
+#canvas {
+  padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 16em;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 2px;
+}
+
+a {
+  padding: 8px;
+  font-size: 2em;
+}
+
+li a:hover {
+  color: white;
+}
+
+.navigation-bar {
+  border-top: 2px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.navigation-bar a {
+  position: relative;
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+  padding: 8px;
+  width: auto;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #09c6c8;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #09c6c8;
+}
+
+.navigation-bar a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.title-somo {
+  padding-top: 2px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.title-somo h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 3em;
+  padding-top: 3.5em;
+  padding-bottom: 10px;
+}
+.title-somo span {
+  display: inline-block;
+  border-top: 3px solid #e7b91b;
+  width: 105px;
+}
+
+#album-intro {
+  margin-top: 129px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+#album-banner {
+  margin-left: 50px;
+  color: white;
+  margin-top: -85px;
+}
+
+p.landing-intro {
+  font-size: 70px;
+  width: 38px;
+  font-weight: 800px;
+  font-family: 'Cinzel', serif;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+#album-banner h3 {
+  font-size: 2.7em;
+  color: black;
+  margin-left: 4em;
+  background-color: #e7b91b;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+#bio-feed {
+  color: white;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.scroll-arrow {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.scroll-arrow i.material-icons {
+  width: 23px;
+  color: #0bc6c8;
+  background: #e7b91b;
+  border-radius: 50%;
+  padding: 6px;
+  position: absolute;
+  left:50%;
+  cursor: pointer;
+  height: 23px;
+}
+
+.box-style {
+  box-sizing: border-box;
+  width: 18%;
+  float: left;
+  z-index: 3;
+  background-color: #e7b91b;
+  margin-right: 104px;
+  margin-top: 8px;
+
+}
+
+.box-style p {
+  font-size: 3em;
+  align-content: center;
+  font-family: 'Expletus Sans', cursive;
+  margin-left: 1em;
+  margin-top: 20px;
+}
+
+.player {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+.footer-somo {
+  padding-top: 2px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-somo span {
+  display: inline-block;
+  border-top: 1.5px solid #e7b91b;
+  width: 816px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6px;
+  text-align: center;
+  color: white;
+  /* margin-left: 6em; */
+  margin-bottom: 2em;
+}
+
+footer .reach-me {
+  display: flex;
+  position: 50%;
+  text-align: center;
+}
+
+footer .sound-on {
+  display: flex;
+  position: 50%;
+  text-align: center;
+}
+
+.email-me {
+  font-size: 10px;
+  position: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-by {
+  padding-top: 1em;
+  text-align: center;
+  color: black;
+  font-size: 4px;
+}
